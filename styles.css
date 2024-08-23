@@ -103,3 +103,16 @@ body{
 .our_team .team_member .member_img:hover .social_media{
   transform: scale(1);
 }
+
+@media ( max-width:1036px){
+  .our_team{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
+  }
+  .our_team .team_member{
+    width:70vw;
+  }
+
+}
